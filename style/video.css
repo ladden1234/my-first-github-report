@@ -1,12 +1,25 @@
-nav >ul>li{
-    display: inline;
+nav >ul{
+    display: flex;
     margin: 5px;
+    /* display: block; */
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 5px;
+    padding: 5px;
+       
+
 }
 
 nav li>a{
     text-decoration: none;
 }
+nav li:hover{
+    background-color: cadetblue;
+}
 
-footer p{
+footer {
     text-align: center;
 }
